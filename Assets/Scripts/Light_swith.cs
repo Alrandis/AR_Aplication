@@ -32,7 +32,7 @@ public class Light_swith : MonoBehaviour
         }
         else if (color == false)
         {
-            green.GetComponent<Renderer>().material.color = new Color(1f, 0, 0);
+            green.GetComponent<Renderer>().material.color = new Color(0, 1f, 0);
             color = true;
         }
     }
@@ -45,7 +45,7 @@ public class Light_swith : MonoBehaviour
         }
         else if (color == false)
         {
-            yellow.GetComponent<Renderer>().material.color = new Color(1f, 0, 0);
+            yellow.GetComponent<Renderer>().material.color = new Color(255, 240, 0);
             color = true;
         }
     }
